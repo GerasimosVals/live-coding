@@ -28,8 +28,8 @@ int main(int argc, char **argv) {
                   }
             }
             if (is_prime == 1) { // num is prime
-//                   printf("%d is prime\n", num);
-                     count++;
+               printf("%d is prime\n", num);
+               count++;
                   }
         }
         printf("%d amount of prime numbers\n", count);
